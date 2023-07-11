@@ -9,7 +9,7 @@ public enum MirrorOfTheVoidBiome {
     OCEAN(Biome.OCEAN),
     RIVER(Biome.RIVER),
     PLAINS(Biome.PLAINS),
-    MOUNTAINS(Biome.MOUNTAINS),
+    MOUNTAINS(Biome.CHERRY_GROVE),
     CRACK(Biome.THE_VOID);
 
     @Getter

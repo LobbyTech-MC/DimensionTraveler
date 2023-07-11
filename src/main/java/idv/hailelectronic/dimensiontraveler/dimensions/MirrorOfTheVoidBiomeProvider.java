@@ -1,22 +1,7 @@
 package idv.hailelectronic.dimensiontraveler.dimensions;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-import java.util.stream.Collectors;
-
-//import javax.annotation.Nonnull;
-
-import org.bukkit.block.Biome;
 import org.bukkit.generator.BiomeProvider;
-import org.bukkit.generator.WorldInfo;
 import org.bukkit.util.noise.SimplexOctaveGenerator;
-
-import it.unimi.dsi.fastutil.ints.IntIntImmutablePair;
-import it.unimi.dsi.fastutil.ints.IntIntPair;
 
 public abstract class MirrorOfTheVoidBiomeProvider extends BiomeProvider{
     /*Copy from Galactifun:

@@ -1,19 +1,16 @@
 package idv.hailelectronic.dimensiontraveler.dimensions;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import org.bukkit.Material;
-import org.bukkit.World;
-import org.bukkit.block.Biome;
-import org.bukkit.generator.BiomeProvider;
-import org.bukkit.generator.ChunkGenerator;
-import org.bukkit.generator.WorldInfo;
-import org.bukkit.util.noise.SimplexOctaveGenerator;
-import org.bukkit.util.noise.PerlinNoiseGenerator;
-
 import java.util.EnumMap;
 import java.util.Map;
 import java.util.Random;
+
+import org.bukkit.Material;
+import org.bukkit.World;
+import org.bukkit.generator.ChunkGenerator;
+import org.bukkit.util.noise.PerlinNoiseGenerator;
+import org.bukkit.util.noise.SimplexOctaveGenerator;
+
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 
 public class MirrorOfTheVoid extends ChunkGenerator {
     /*Copy from：
